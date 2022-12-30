@@ -1,0 +1,22 @@
+@startuml
+actor librarian
+box
+participant reverseService
+participant borrowDB
+participant reverseDB
+participant bookDB
+participant fineDB
+
+end box
+
+librarian->reverseService:isbn and state
+reverseService->borrowDB:isbn
+alt borrow record exist
+    reverseService->reverseService:isbn and state
+    alt overtime
+        reverseService->fineDB:fine record
+else reverseService->bookDB:book record
+
+end
+
+@enduml

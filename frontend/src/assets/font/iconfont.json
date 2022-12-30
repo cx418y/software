@@ -1,0 +1,30 @@
+{
+  "id": "2437696",
+  "name": "vuelab2",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "826948",
+      "name": "登录",
+      "font_class": "denglu-copy",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "9495541",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "15394728",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    }
+  ]
+}
